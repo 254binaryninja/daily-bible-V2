@@ -16,9 +16,7 @@ interface Response {
 }
 
 //TODO:Move nodemailer from devDependencies  to dependencies
-interface SignUpResponse {
-  status: number;
-}
+
 
 export const signUp = api(
   { method: "POST", path: "/sign-up", expose: true },
